@@ -1,0 +1,17 @@
+{
+  "name": "@mxjs/cli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "miaoxing-ts": "index.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@types/yargs": "^15.0.4",
+    "yargs": "^15.1.0"
+  }
+}

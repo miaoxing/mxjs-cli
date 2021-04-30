@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "miaoxing-ts": "index.ts"
+    "miaoxing-ts": "cli.ts"
   },
   "publishConfig": {
     "access": "public",
@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@types/yargs": "^15.0.4",
+    "globby": "^11.0.0",
+    "npmlog": "^4.1.2",
     "yargs": "^15.1.0"
   },
   "devDependencies": {

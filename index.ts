@@ -1,16 +1,14 @@
-#!/usr/bin/env ts-node
-
 import * as yargs from 'yargs';
 import * as npmlog from 'npmlog';
 import * as globby from 'globby';
 
-(async () => {
+export default async () => {
   const paths = await globby('plugins/*/commands/*');
   paths.forEach(path => {
     yargs.command(require(process.cwd() + '/' + path).default);
   });
 
-  yargs
+  return yargs
     .options({
       'log-level': {
         group: 'Global Options:',
@@ -26,6 +24,5 @@ import * as globby from 'globby';
       },
     ])
     .strict()
-    .help()
-    .argv;
-})();
+    .help();
+};

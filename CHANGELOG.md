@@ -1,3 +1,13 @@
+## [0.1.10](https://github.com/miaoxing/mxjs-cli/compare/v0.1.9...v0.1.10) (2023-05-31)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.2.0` to `8.2.1`
+
 ## [0.1.9](https://github.com/miaoxing/mxjs-cli/compare/v0.1.8...v0.1.9) (2023-01-01)
 
 

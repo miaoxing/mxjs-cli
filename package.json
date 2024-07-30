@@ -1,7 +1,7 @@
 {
   "name": "@mxjs/cli",
   "version": "0.1.16",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "bin": {
     "miaoxing-ts": "cli.ts"

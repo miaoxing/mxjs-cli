@@ -1,3 +1,18 @@
+## [0.1.17](https://github.com/miaoxing/mxjs-cli/compare/v0.1.16...v0.1.17) (2024-07-31)
+
+
+### Bug Fixes
+
+* **cli:** 更新 package.json main 指向 index.ts ([a967357](https://github.com/miaoxing/mxjs-cli/commit/a96735757c7e050506160c62e8f24498c5c4fd08))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+
 ## [0.1.16](https://github.com/miaoxing/mxjs-cli/compare/v0.1.15...v0.1.16) (2024-03-31)
 
 

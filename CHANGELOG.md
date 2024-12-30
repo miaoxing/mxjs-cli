@@ -1,3 +1,18 @@
+## [0.1.20](https://github.com/miaoxing/mxjs-cli/compare/v0.1.19...v0.1.20) (2024-12-30)
+
+
+### Bug Fixes
+
+* **cli:** 解决缺少 `ts-node` 依赖 ([4084e2a](https://github.com/miaoxing/mxjs-cli/commit/4084e2aa02329e458f5ca5d43d9bdff354643f04))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.2.0` to `9.3.0`
+
 ## [0.1.19](https://github.com/miaoxing/mxjs-cli/compare/v0.1.18...v0.1.19) (2024-09-01)
 
 
